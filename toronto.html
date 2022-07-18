@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/toronto.css">
+    <link rel="stylesheet" href="./css/media-query/toronto-media.css">
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Icon Link -->
+    <link rel="icon" type="image/png" href = "img/logo.png">
+    <title>Toronto, Ontario - Travel Agency</title>
+</head>
+<body>
+    <div class="main">
+        <div class="Navbar">
+            <div class="Navbar__Link Navbar__Link-brand">
+                <a href=""><img src="img/logo.png" /></a>
+                </div>
+                <div class="Navbar__Link-toggle">
+                <i class="fas fa-bars"></i>
+                </div>
+            <nav class="Navbar__Items">
+                <a href="index.html" class="Navbar__Link">Home</a>
+                <a href="siargao.html" class="Navbar__Link">Siargao Island</a>
+                <a href="toronto.html" class="Navbar__Link active">Toronto Ontario</a>
+                <a href="contact.html" class="Navbar__Link">Contact</a>
+                <a href="about.html" class="Navbar__Link">About Us</a>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<div class="cover">
+    <div class="cover-header">
+        <img src="img/img3.jpg" />
+    </div>
+    <div class="cover-details">
+        <h1>Featured ON Culture Guide: Thunder Bay</h1>
+        <p>Stunning landscape meets unique history in Thunder Bay. On the shores of Lake Superior, the city is an amalgamation of Fort William and Port Arthur and boasts the largest Finnish population per capita outside of Finland. Clues to the earliest inhabitants - stone tools, spear points - point to a 10,000-year history. On the traditional territory of the Anishinabek, the nearby Fort William First Nation is a hub for Northwestern Ontario Indigenous communities.</p>
+        <img src="img/img4.jpg" /><br><br>
+        <h1>Cobalt And Temiskaming Shores</h1>
+        <p>Rocky Canadian shield, vast lakes, majestic forests - welcome to Ontario's north. Indigenous peoples have inhabited these lands for centuries and Lake Temiskaming, at the headwaters of the Ottawa River, makes it an historic region for transportation and trade. Then there's the extraordinary history of Cobalt's silver rush in 1903, resulting in headlines around the world. No wonder the region provided inspiration for artists like the Group of Seven.</p>
+        <img src="img/img5.jpg" /><br><br>
+        <h1>Durham Region South</h1>
+        <p>Durham Region South is conveniently located a stone's throw from Toronto and offers day-tripping possibilities galore. The region hugs Lake Ontario from Bowmanville to Pickering, making it easy to skip from location to location — and savour lakeside vistas. The lake and the land have held significance for centuries, as the Mississaugas, a branch of the Ojibwa Nation, moved into region circa 1700.</p>
+        <img src="img/img6.jpg" /><br><br>
+        <h1>Durham Region North</h1>
+        <p>From lake to lake — Scugog to Simcoe — Durham Region North is a rural Ontario destination known for rolling farmlands, charming towns, and the Oak Ridges Moraine, one of the most important formations in Ontario’s greenbelt. All that, plus a vibrant arts and cultural scene.</p>
+        <img src="img/img7.jpg" /><br><br>
+        <h1>GeorgeTown / Glen Williams</h1>
+        <p>Halton Hills is a community of towns, hamlets and villages that occupy an area along the Niagara Escarpment, with the Credit River winding its way through the forests, plains, and marshes. The abundant natural beauty and small-town charm have captured the hearts of artists, encouraging many of them to call this place home.</p>
+        <img src="img/img8.jpg" /><br><br>
+        <h1>Ottawa - Local</h1>
+        <p>The nation's capital is known for its impressive “big-ticket” possibilities: Parliament Hill, international festivals, nationally significant museums. Ottawa residents are proud to lay claim to the world's longest skating rink and largest Tulip Festival. But they also love to just walk, shop, and enjoy their city - and so can you.
+        <br>It's not often you'll find a farm in a city. But the Central Experimental Farm (locals just call it the Experimental Farm) is only a few kilometres from downtown. It's no hobby farm, not at 426 hectares. Established in 1886, the farm has made significant contributions to Canadian agriculture, including developing the world-famous frost-resistant Marquis wheat. Take a deep dive into Canada's agricultural heritage at the Canadian Agricultural and Food Museum. Or, just talk to the animals. The museum is home to cows, alpacas, pigs, horses, goats and more.
+        </p>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="footer-section">
+        <p>© 2022 by Travel Agencies. All rights reserved.</p>
+    </div>
+</div>
+
+<script>
+    function classToggle() {
+    const navs = document.querySelectorAll('.Navbar__Items')
+    
+    navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+    }
+
+    document.querySelector('.Navbar__Link-toggle')
+    .addEventListener('click', classToggle);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+
+:root {
+    --black: #000000;
+    --white: #FFFFFF;
+    --red: #FF0217;
+    --yellow: #FEEA3B;
+    --darkgray: #353535;
+    --lightgray: #5A5A5A;
+    --darkgreen: #4E9C25;
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px) {
+    .main {
+
+        .Navbar {
+            padding: .5rem 2.5rem;
+        }
+
+    }
+
+    .about {
+        padding: 0 3rem;
+    }
+}
+
+@media all and (max-width: 426px) {
+
+    .about {
+        padding: 0 1rem;
+        margin: 3rem 0;
+
+        .about-section {
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
+
+}
