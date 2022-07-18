@@ -88,11 +88,11 @@
 
 @media all and (max-width: 1024px) and (min-width: 768px) {
   .cover .cover-details {
-    padding: 1rem 3rem;
+    padding: 1rem 1rem;
   }
 }
 @media all and (max-width: 426px) {
   .cover .cover-details {
-    padding: 1rem 3rem;
+    padding: 1rem 1rem;
   }
 }
