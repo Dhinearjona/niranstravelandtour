@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/siargao.css">
+    <link rel="stylesheet" href="./css/media-query/siargao-media.css">
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Icon Link -->
+    <link rel="icon" type="image/png" href = "img/logo.png">
+    <title>Siargao Island - Travel Agency</title>
+</head>
+<body>
+    <div class="main">
+        <div class="Navbar">
+            <div class="Navbar__Link Navbar__Link-brand">
+                <a href=""><img src="img/logo.png" /></a>
+                </div>
+                <div class="Navbar__Link-toggle">
+                <i class="fas fa-bars"></i>
+                </div>
+            <nav class="Navbar__Items">
+                <a href="index.html" class="Navbar__Link">Home</a>
+                <a href="siargao.html" class="Navbar__Link active">Siargao Island</a>
+                <a href="toronto.html" class="Navbar__Link">Toronto Ontario</a>
+                <a href="contact.html" class="Navbar__Link">Contact</a>
+                <a href="about.html" class="Navbar__Link">About Us</a>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<div class="cover">
+    <div class="cover-header">
+        <img src="img/cover.jpg" />
+    </div>
+    <div class="cover-details">
+        <h1>Why it's more fun in Siargao</h1>
+        <p>Named after a native mangrove, the surf capital of the Philippines is perfect for lovers of the great outdoors, whether you embrace adrenaline-fuelled adventure sports or gentler pursuits such as swimming in rock pools and caves. Life is centred on the white-sand beaches, so there's also plenty of scope to lie back and relax.</p>
+        <img src="img/img1.jpg" /><br><br>
+        <h1>Culture & Food</h1>
+        <p>Attracting adventurous travellers from around the world many on a tight budget Siargao has an eclectic dining scene embracing international cooking, vegan and other healthy cuisine, and local recipes with or without a modern twist. Filipino favourites not to miss include the seafood boodle fight at Daku Island and the unique surfboard-shaped bread, Pan de Surf. Siargao has a lively nightlife scene focused on different bars on different nights of the week, so chatting to locals is the best way to find out where to head. Regular venues include Bravo, RumBar, Viento and the Jungle Shack. Another way to get to know locals is through their love of karaoke, both in their own homes and in dedicated bars.</p>
+        <img src="img/img2.jpg" />
+    </div>
+    <div class="cover-details-grid">
+        <div class="cover-details-left">
+            <h1>Top Event & Festivals</h1>
+            <ul>
+                <li><b>Siargao International Game Fishing Tournament - April</b></li>
+                <li><b>Siargao International Marathon - July</b></li>
+                <li><b>Siargao International Surfing Cup - September</b>
+                <br>Part of General Luna's yearly fiesta - the island's biggest, with two weeks of parades, parties, live bands and discos. </li>
+                <li><b>Other fiestas include Dapa in January, San Benito in March, San Isidro in May, Socorro in June, Del Carmen and Burgus in July, Santa Monica in August, Pilar in October</b></li>
+            </ul>
+        </div>
+        <div class="cover-details-right">
+            <h1>Climate</h1>
+            <p>Tropical climate - very warm (28-31°C) and humid year-round, with considerable rainfall. July to November is the best time to surf.</p>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="footer-section">
+        <p>© 2022 by Travel Agencies. All rights reserved.</p>
+    </div>
+</div>
+
+<script>
+    function classToggle() {
+    const navs = document.querySelectorAll('.Navbar__Items')
+    
+    navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+    }
+
+    document.querySelector('.Navbar__Link-toggle')
+    .addEventListener('click', classToggle);
+</script>
+</body>
+</html>
